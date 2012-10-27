@@ -1,0 +1,52 @@
+/*Styles for accordion element */
+#accordion {
+	background-color:transparent;
+	border:none;
+	width: 40%;	
+}
+
+.accordionheader {
+	margin-top: 15px;
+	background-color: #D1E2F7;
+	border-radius: 8px;
+	height:40px;
+	border: 2px solid white;
+	cursor:pointer;
+}
+
+.accordionheader span.title{
+	margin-left: 15px;
+	cursor:default;
+	vertical-align:middle;
+	font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:24px;
+	font-weight:bold;
+	color: black;
+}
+
+.accordionheader img{
+	float: right;
+	width:30px;
+	height:30px;
+	margin-top:5px;
+	margin-right:5px;
+}
+
+.accordioncontent{
+	background-color: #D1E2F7;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	border-top: 0px;
+	display:none;
+}
+.accordioncontent.active {
+	display:block;
+}
+
+.accordioncontent p{
+	margin-top: 0px;
+}
